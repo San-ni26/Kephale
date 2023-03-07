@@ -1,0 +1,129 @@
+.pub-femme {
+    width: 100%;
+    height: 400px;
+}
+
+.pub-femmes .femme {
+    width: 100%;
+    height: 400px;
+}
+
+.femme img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rech {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.recherche {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.recherche input{
+    width: 300px;
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 20px;
+}
+.recherche section img{
+    width: 20px;
+    margin-left: -30px;
+    margin-top: 1px;
+}
+
+/* responsive de la bare de navigation 
+320 px
+*/
+@media screen and (max-width: 320px) {
+    .recherche input{
+        width: 230px;
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 20px;
+    }
+    .recherche section img{
+        width: 16px;
+        margin-left: -25px;
+        margin-top: 3px;
+    } 
+}
+/* responsive de la bare de navigation 
+375 px
+*/
+@media screen and (max-width: 375px) {
+    .recherche input{
+        width: 230px;
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 20px;
+    }
+    .recherche section img{
+        width: 16px;
+        margin-left: -25px;
+        margin-top: 3px;
+    } 
+}
+
+/* responsive de la bare de navigation 
+425 px
+*/
+@media screen and (max-width: 425px) {
+    .recherche input{
+        width: 230px;
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 20px;
+    }
+    .recherche section img{
+        width: 16px;
+        margin-left: -25px;
+        margin-top: 3px;
+    } 
+}
+
+/* responsive de la bare de navigation 
+320 px
+*/
+@media screen and (max-width: 320px) {
+    .pub-femmes .femme {
+        width: 100%;
+        height: 160px;
+    }
+}
+
+/* responsive de la bare de navigation 
+375 px
+*/
+@media screen and (max-width: 375px) {
+    .pub-femmes .femme {
+        width: 100%;
+        height: 180px;
+    }
+}
+
+/* responsive de la bare de navigation 
+425 px
+*/
+@media screen and (max-width: 425px) {
+    .pub-femmes .femme {
+        width: 100%;
+        height: 180px;
+    }
+}
+
+/* responsive de la bare de navigation 
+768 px
+*/
+@media screen and (max-width: 768px) {
+    .pub-femmes .femme {
+        width: 100%;
+        height: 280px;
+    }
+}

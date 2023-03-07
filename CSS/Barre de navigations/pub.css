@@ -1,0 +1,10 @@
+.pub video{
+    width: 100%;
+    height: 10%;
+}
+
+@media screen and (max-width: px){
+    .pub{
+        margin-top: 40px;
+    }
+}
