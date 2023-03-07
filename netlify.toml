@@ -1,8 +1,0 @@
-[Kephale]
-commande = "npm run Kephale"
-publish = "/Kephale"
-base = "/"
-[[redirects]]
-from = "/*"
-to = "/accuil.html"
-status = 200
