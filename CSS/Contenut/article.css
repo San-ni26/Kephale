@@ -118,6 +118,17 @@
 
 
 /* responsive de la bare de navigation 
+412 px
+*/
+@media screen and (min-width: 412px){
+    .boutique{
+        width: 90px;
+        height: 110px;
+        margin-left: 10px;
+    }
+}
+
+/* responsive de la bare de navigation 
 768 px
 */
 @media screen and (min-width: 768px){
