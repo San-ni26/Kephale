@@ -37,6 +37,31 @@
     margin-left: 4px;
 
 }
+
+/* responsive de la bare de navigation 
+412 px
+*/
+@media screen and (min-width: 412px){
+    .arti{
+        display: flex;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    .boutique{
+        width: 90px;
+        height: 100px;
+        margin-left: 10px;
+    }
+    .arti li a{
+        margin-right: 13px;
+        font-size: 423px;
+        
+    }
+
+}
+
+
 /* responsive de la bare de navigation 
 425 px
 */
@@ -57,6 +82,8 @@
         font-size: 13px;
         
     }
+
+
     .boutique h5{
         margin-top: -25px;
         color: rgb(255, 255, 255);
@@ -105,7 +132,7 @@
     }
     .arti li a{
         margin-right: 13px;
-        font-size: 15px;
+        font-size: 12px;
     }
     .boutique h5{
         margin-top: -25px;
@@ -115,7 +142,6 @@
     
     }
 }
-
 
 /* responsive de la bare de navigation 
 412 px
@@ -133,7 +159,7 @@
 */
 @media screen and (min-width: 768px){
     .boutique{
-        width: 180px;
+        width: 170px;
         height: 110px;
         margin-left: 10px;
     }
@@ -175,8 +201,8 @@
 */
 @media screen and (min-width: 1440px){
     .boutique{
-        width: 340px;
-        height: 110px;
+        width: 330px;
+        height: 210px;
         margin-left: 10px;
     }
     .arti li a{
@@ -187,7 +213,7 @@
         margin-top: -40px;
         color: rgb(255, 255, 255);
         font-size: 18px;
-        margin-left: 9px;
+        margin-left: 20px;
     
     }
 }
