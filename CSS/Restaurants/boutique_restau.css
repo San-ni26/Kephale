@@ -1,0 +1,38 @@
+.liste_restau{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.boutique_restau{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(184, 184, 184);
+    margin-left: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.img_restau{
+    width: 100%;
+    height: 200px;
+}
+.img_restau img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.info_restau{
+    width: 90%; 
+}
+
+.info_restau h2{
+    font-size: 17px;
+}
+.info_restau h4{
+    font-size: 12px;
+}
+

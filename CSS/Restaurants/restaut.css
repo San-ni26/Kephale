@@ -1,0 +1,29 @@
+.contenair_restau {
+    width: 100%;
+    height: 170px;
+}
+.contenair_restau .cont_restau{
+    width: 100%;
+    height: 100%;
+    
+}
+.cont_img{
+    width: 100%;
+    height: 170px;
+}
+
+.cont_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.cont_text{
+    position: absolute;
+    top: 130px;
+    left: 10px;
+}
+.cont_text p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
