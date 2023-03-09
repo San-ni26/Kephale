@@ -1,0 +1,18 @@
+
+.bloc_service{
+    height: 200px;
+    background-color: blue;
+    margin-top: 40px;
+}
+.bloc_service .service{
+    display: flex;
+    margin: 10px;
+}
+.service h4 a {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
