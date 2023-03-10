@@ -1,7 +1,7 @@
 
 .bloc_service{
     height: 30px;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .bloc_service .service{
     display: flex;
@@ -17,4 +17,7 @@
     padding-right: 10px;
     border-radius: 10px;
     margin-right: 10px;
+}
+.url h5 li a {
+    font-size: 20px;
 }
