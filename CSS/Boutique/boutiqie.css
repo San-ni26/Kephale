@@ -2,22 +2,53 @@
 .bloc_service{
     height: 30px;
     margin-top: 60px;
+    bottom: 10px;
 }
 .bloc_service .service{
     display: flex;
     margin: 10px;
     margin-top: 10px;
 }
-.service h6 a {
-    color: rgb(0, 0, 0);
+.bloc_reservatons{
+    display: flex;
+    align-items: center;
     background-color: rgb(214, 214, 214);
-    padding: 10px;
-    margin-top: 10px;
+    padding: 4px;
     margin-bottom: 10px;
     padding-right: 10px;
     border-radius: 10px;
     margin-right: 10px;
 }
+
+.bloc_reservatons img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.bloc_menus{
+    display: flex;
+    align-items: center;
+    background-color: rgb(214, 214, 214);
+    padding: 4px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.bloc_menus img {
+    width: 30px;
+    margin-right: 10px; 
+}
+
+.service .bloc_reservatons h6 a {
+    color: rgb(0, 0, 0);
+}
+
+.service .bloc_menus h6 a {
+    color: rgb(0, 0, 0);
+}
+
 .url h5 li a {
     font-size: 20px;
 }
