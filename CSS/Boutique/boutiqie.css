@@ -1,18 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.ligne_clok{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(111, 111, 111);
+}
+.ligne{
+    height: 1px;
+}
+.barre_boutique{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a img{
+    width: 120px;
+}
+
+
 
 .bloc_service{
-    height: 30px;
-    margin-top: 60px;
+    height: 60px;
     bottom: 10px;
 }
 .bloc_service .service{
     display: flex;
     margin: 10px;
     margin-top: 10px;
+    margin-left: 20px;
 }
+
+
 .bloc_reservatons{
     display: flex;
     align-items: center;
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(231, 231, 231);
     padding: 4px;
     margin-bottom: 10px;
     padding-right: 10px;
@@ -28,7 +57,7 @@
 .bloc_menus{
     display: flex;
     align-items: center;
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(231, 231, 231);
     padding: 4px;
     margin-bottom: 10px;
     padding-right: 10px;
@@ -48,7 +77,45 @@
 .service .bloc_menus h6 a {
     color: rgb(0, 0, 0);
 }
+.url{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.img_profil{
+    width: 27px;
+    height: 27px;
+    border: 2px solid  rgb(243, 184, 6);
+    padding: 2px;
+    border-radius: 100%;
+}
 
+.img_profil img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 100%;
+}
 .url h5 li a {
-    font-size: 20px;
+    font-size: 14px;
+    color: black;
+    margin-left: 10px;
+}
+
+
+.recherche {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.recherche input{
+    width: 300px;
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 20px;
+}
+.recherche section img{
+    width: 20px;
+    margin-left: -30px;
+    margin-top: 1px;
 }
