@@ -14,12 +14,12 @@
     color: black;
     margin-right: 10px;
     font-size: 9px;
-    border: 0.1px solid black;
-    padding: 3px;
+    padding: 7px;
     padding-left: 10px;
     padding-right: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     font-family: 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(242, 242, 242);
 }
 .contenair{
     width: 100%;
