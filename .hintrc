@@ -5,6 +5,7 @@
   "hints": {
     "axe/name-role-value": "off",
     "axe/structure": "off",
-    "axe/forms": "off"
+    "axe/forms": "off",
+    "apple-touch-icons": "off"
   }
 }
